@@ -136,7 +136,7 @@ p {
 
 }
 
-.btn {
+.btn {    
   margin-top: 50px;
   background: #11cdd4;
   background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
@@ -203,5 +203,74 @@ p {
 .linkedinLink:hover {
     color: #30e3cb;
 }
+
+.languagebtnptbr {
+    position: fixed;
+    top: 1%;
+    right: 5%;    
+    background: #aaacad;
+    background-image: -webkit-linear-gradient(top, #aaacad, #5a92b5);
+    background-image: -moz-linear-gradient(top, #aaacad, #5a92b5);
+    background-image: -ms-linear-gradient(top, #aaacad, #5a92b5);
+    background-image: -o-linear-gradient(top, #aaacad, #5a92b5);
+    background-image: linear-gradient(to bottom, #aaacad, #5a92b5);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    -webkit-box-shadow: 0px 1px 3px #666666;
+    -moz-box-shadow: 0px 1px 3px #666666;
+    box-shadow: 0px 1px 3px #666666;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 10px;
+    padding: 10px 10px 10px 10px;
+    border: solid #1f628d 1px;
+    text-decoration: none;
+  }
+  
+  .languagebtnptbr:hover {
+    background: #ebc8eb;
+    background-image: -webkit-linear-gradient(top, #ebc8eb, #b39fb3);
+    background-image: -moz-linear-gradient(top, #ebc8eb, #b39fb3);
+    background-image: -ms-linear-gradient(top, #ebc8eb, #b39fb3);
+    background-image: -o-linear-gradient(top, #ebc8eb, #b39fb3);
+    background-image: linear-gradient(to bottom, #ebc8eb, #b39fb3);
+    text-decoration: none;
+  }
+
+
+  .languagebtnenus {
+    position: fixed;
+    top: 1%;
+    right: 8%;    
+    background: #aaacad;
+    background-image: -webkit-linear-gradient(top, #aaacad, #5a92b5);
+    background-image: -moz-linear-gradient(top, #aaacad, #5a92b5);
+    background-image: -ms-linear-gradient(top, #aaacad, #5a92b5);
+    background-image: -o-linear-gradient(top, #aaacad, #5a92b5);
+    background-image: linear-gradient(to bottom, #aaacad, #5a92b5);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    -webkit-box-shadow: 0px 1px 3px #666666;
+    -moz-box-shadow: 0px 1px 3px #666666;
+    box-shadow: 0px 1px 3px #666666;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 10px;
+    padding: 10px 10px 10px 10px;
+    border: solid #1f628d 1px;
+    text-decoration: none;
+  }
+  
+  .languagebtnenus:hover {
+    background: #ebc8eb;
+    background-image: -webkit-linear-gradient(top, #ebc8eb, #b39fb3);
+    background-image: -moz-linear-gradient(top, #ebc8eb, #b39fb3);
+    background-image: -ms-linear-gradient(top, #ebc8eb, #b39fb3);
+    background-image: -o-linear-gradient(top, #ebc8eb, #b39fb3);
+    background-image: linear-gradient(to bottom, #ebc8eb, #b39fb3);
+    text-decoration: none;
+  }
 
 
