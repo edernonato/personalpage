@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" id="home" >
 
 <head>
   <meta charset="UTF-8">
@@ -23,6 +23,36 @@
   </div>
 
   <div class="middle-container">
+    <div class="top-bar-div">
+      <nav class="top-bar">
+        <ul>
+          <li>
+            <h3 class="top-bar-name">EDER NONATO FERNANDES</h3>
+          </li>
+          <li><button class="top-bar-btn" type="button" onclick="location.href='#home'">
+              <p>HOME</p>
+            </button></li>
+          <li><button class="top-bar-btn" type="button" onclick="location.href='#skills_skill_row'">
+              <p>SKILLS</p>
+            </button></li>
+          <li><button class="top-bar-btn" type="button" onclick="location.href='#personal_projects_skill_row'">
+              <p>PROJECTS</p>
+            </button></li>
+          <li><button class="top-bar-btn" onclick="location.href='#programming'">
+              <p>PROGRAMMING</p>
+            </button></li>
+          <li><button class="top-bar-btn" onclick="location.href='#education_skill_row'">
+              <p>EDUCATION</p>
+            </button></li>
+          <li><button class="top-bar-btn" onclick="location.href='https://edernonato.github.io/cv'">
+              <p>ONLINE CV</p>
+            </button></li>
+          <li><button class="top-bar-btn" onclick="location.href='#contact'">
+              <p>CONTACT ME</p>
+            </button></li>
+        </ul>
+      </nav>
+    </div>
     <a class="languagebtnptbr" href="pt-br.html">PT-BR</a>
     <a class="languagebtnenus" href="index.html">EN-US</a>
     <div class="profile">
@@ -32,9 +62,9 @@
         (Help desk and Service Now), technical sales and freelance development.</p>
     </div>
     <hr>
-    <div class="skills">
-      <h2>My Skills</h2>
-      <div class="skill-row">
+    <div id="skills" class="skills">
+      <h2 id="skills">My Skills</h2>
+      <div id="skills_skill_row" class="skill-row ">
         <img class="skill-image-left" src="images/it_infrastructure-modified.png" alt="">
         <h3>IT Infrastructure</h3>
         <p class="skill-description1">Experience in IT Infrastructure handling management and administration of Help
@@ -60,7 +90,7 @@
           phones (PABX), applications and ERP systems.</p>
       </div>
     </div>
-    <h2>Programming and Web Development</h2>
+    <h2 id="programming">Programming and Web Development</h2>
     <div class="skill-row">
       <img class="skill-image-left" src="images/Python.png" alt="computer image">
       <h3>Python</h3>
@@ -104,9 +134,9 @@
         </a>
       </ul>
     </div>
-    <div class="skill-row">
+    <div id="education_skill_row" class="skill-row">
       <img class="skill-image-right" src="images/education_and_courses-modified.png" alt="">
-      <h3>Education and Courses</h3>
+      <h3 id="education">Education and Courses</h3>
       <p class="skill-description4">Some of the courses I have taken.</p>
       <ul class="educationlist">
         <li>Information Systems 7th semester - In progress</li>
@@ -121,9 +151,9 @@
       <p>The entire list of courses and certificates are available on my <a class="linkedinLink"
           href="https://www.linkedin.com/in/eder-nonato-fernandes-278b496b" target="_blank">LinkedIn</a>.</p>
     </div>
-    <div class="skill-row" style="margin-bottom:0">
+    <div id="personal_projects_skill_row" class="skill-row" style="margin-bottom:0">
       <img class="skill-image-left" src="images/personal_projects-modified.png" alt="">
-      <h3>Personal Projects</h3>
+      <h3 id="personal_projects">Personal Projects</h3>
       <p class="skill-description5">Projects that I have developed using my programming skills.</p>
       <ul class="personalProjectsList">
         <li><a class="personalProjectsList" href="https://github.com/edernonato/ultraretro"
@@ -133,6 +163,9 @@
         <li><a class="personalProjectsList"
             href="https://github.com/edernonato/spotify-playlist-billboard-hot-100-time-travel-web-scrapping"
             target=”_blank”>Spotify Playlist Billboard Scraping</a></li>
+        <li><a class="personalProjectsList"
+            href="https://github.com/edernonato/internet-provider-twitter-complaint-bot-1" target=”_blank”>Internet
+            Provider Twitter Complaint Bot</a></li>
         <li><a class="personalProjectsList" href="https://github.com/edernonato/flight_deals" target=”_blank”>Flight
             Deals</a></li>
         <li><a class="personalProjectsList" href="https://github.com/edernonato/linkedin-job-alert-selenium"
@@ -160,7 +193,7 @@
           target=”_blank”>GitHub</a> account</p>
     </div>
     <hr>
-    <div class="contact">
+    <div id="contact" class="contact">
       <h2>Get In Touch</h2>
       <h3>If you are looking for an IT professional and are interested in my skills, or if you are a fellow programmer
         and have a suggestion, please contact me.</h3>
