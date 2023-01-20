@@ -344,7 +344,7 @@ p {
     display: block;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1200px) {
     body {
         font-size: 14px;
     }
@@ -386,8 +386,7 @@ p {
         top: 0.5%;
     }
 
-    .online-cv {
-        /* font-size: 6px; */
+    .online-cv {        
         width: 150%;
     }
 
